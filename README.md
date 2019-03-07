@@ -1,5 +1,8 @@
 # CALM GAMES SERVER REPOSITORIES
 
-Can use this template for your server with **credits**
+You can use this template for your server with the respective _**credits to the creator**_
 
-![Lava Fall Logo](/imgs/favicon.png) ```cs Debug.Log("Hello World!")```
+```python
+print "Hello User!"
+```
+![Lava Fall Logo](/imgs/favicon.png)
