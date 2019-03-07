@@ -2,4 +2,4 @@
 
 Can use this template for your server with **credits**
 
-![Lava Fall Logo](/imgs/favicon.png)
+![Lava Fall Logo](/imgs/favicon.png) ```cs Debug.Log("Hello World!")```
