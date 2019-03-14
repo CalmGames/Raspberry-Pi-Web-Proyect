@@ -1,2 +1,2 @@
-console.log('hello world')
-$('a').textfit('bestfit')
+
+$ (".PanelButtons").textfit('bestfit')
