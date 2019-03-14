@@ -1,4 +1,4 @@
-﻿/*PRINCIPAL PANEL*/
+/*PRINCIPAL PANEL*/
 div {
     margin-left: 30px;
     margin-right: 30px;
@@ -7,13 +7,43 @@ div {
     position: center;
     background: #1C1C1C;
     box-shadow: 0px 0px 12px 6px #BDBDBD;
-    border-bottom: 8px solid orange;
+    border-bottom: 8px solid #ff8f00;
+}
+
+ul{
+  text-decoration: none;
+  height: 50px;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  align-text: center;
+  flex: auto;
+  text-decoration: none;
+  list-style: none;
+  color: red;
+  padding: 25px;
+  width: 190px;
+  height: 50px;
+}
+
+.PanelButtons{
+  width: 100%;
+  height: 100%;
+  flex: auto;
+  text-decoration: none;
+  font-family: Montserrat;
+  color: white;
+  padding:  20px;
 }
 
 h1 {
     text-align: center;
     font-family: Montserrat;
-    font-size: 32px;
+    font-size: 35px;
     padding-top: 10px;
     padding-left: 0px;
     padding-right: 0px;
@@ -26,9 +56,16 @@ p {
     margin:40px;
     text-align: center;
     font-family: Montserrat;
-    color: white;
+    color: black;
     padding-bottom: -19px;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 h3 {
     text-align: center;
@@ -39,11 +76,6 @@ h3 {
     margin-bottom: 30px;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 /*ADAPTATIVE DISPLAY*/
 @media screen and (min-width: 800px){
@@ -54,7 +86,7 @@ footer{
        margin-left: 190px;
        margin-right: 190px;
     }
-    
+
     h3 {
         text-align: center;
         font-family: Montserrat;
