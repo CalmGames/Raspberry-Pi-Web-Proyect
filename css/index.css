@@ -1,5 +1,5 @@
 /*PRINCIPAL PANEL*/
-div {
+header {
     margin-left: 30px;
     margin-right: 30px;
     padding-left: 0px;
@@ -20,24 +20,23 @@ ul{
 }
 
 li{
-  align-text: center;
   flex: auto;
   text-decoration: none;
   list-style: none;
   color: red;
   padding: 25px;
-  width: 190px;
-  height: 50px;
 }
 
 .PanelButtons{
-  width: 100%;
   height: 100%;
-  flex: auto;
   text-decoration: none;
   font-family: Montserrat;
+  text-align: center;
   color: white;
-  padding:  20px;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -96,7 +95,7 @@ h3 {
 }
 
 @media div and (min-width: 790px){
-    div {
+    header {
        color: red;
        padding-top: 10px;
        padding-left: 50px;
